@@ -1,0 +1,6 @@
+#!/bin/sh
+# Wrapper that restarts dtray when dwm restarts
+while true; do
+	dtray
+	sleep 1
+done
